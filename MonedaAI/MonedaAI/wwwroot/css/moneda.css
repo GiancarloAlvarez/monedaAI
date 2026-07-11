@@ -1,0 +1,179 @@
+﻿/* Variables para colores y estilos globales */
+:root {
+    --bg-main: #0f172a;
+    --bg-card: #1e293b;
+    --bg-input: #0f172a;
+    --text-main: #e2e8f0;
+    --text-muted: #94a3b8;
+    --accent: #38bdf8;
+    --border: #334155;
+    --error-bg: #450a0a;
+    --error-text: #fecaca;
+}
+
+.moneda-page {
+    min-height: 100vh;
+    background: var(--bg-main);
+    color: var(--text-main);
+    padding-bottom: 60px;
+}
+
+.moneda-nav {
+    min-height: 70px;
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 32px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.moneda-logo {
+    color: var(--accent);
+    font-size: 1.45rem;
+    font-weight: 800;
+    letter-spacing: -0.7px;
+}
+
+    .moneda-logo span {
+        color: #f8fafc;
+    }
+
+.beta-badge {
+    background: #0ea5e9;
+    border-radius: 999px;
+    color: #ffffff;
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 3px 9px;
+}
+
+.model-info {
+    color: #64748b;
+    font-size: 0.8rem;
+    margin-left: auto;
+}
+
+.moneda-hero {
+    margin: 0 auto;
+    max-width: 850px;
+    padding: 50px 24px 30px;
+    text-align: center;
+}
+
+    .moneda-hero h1 {
+        color: #f8fafc;
+        font-size: 2.1rem;
+        font-weight: 800;
+    }
+
+        .moneda-hero h1 span {
+            color: var(--accent);
+        }
+
+    .moneda-hero p {
+        color: var(--text-muted);
+        font-size: 0.98rem;
+    }
+
+.moneda-container {
+    margin: 0 auto;
+    max-width: 850px;
+    padding: 0 24px;
+}
+
+.moneda-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.18);
+}
+
+.section-label {
+    color: var(--text-muted);
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.technique-grid {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 28px;
+}
+
+.technique-option {
+    background: var(--bg-input);
+    border: 2px solid var(--border);
+    border-radius: 12px;
+    color: #e2e8f0;
+    cursor: pointer;
+    padding: 16px;
+    text-align: left;
+    transition: 0.2s ease;
+}
+
+    .technique-option:hover {
+        border-color: var(--accent);
+        transform: translateY(-2px);
+    }
+
+    .technique-option.active {
+        background: #0c2a3e;
+        border-color: var(--accent);
+    }
+
+.technique-name {
+    color: #f8fafc;
+    font-weight: 700;
+    display: block;
+}
+
+.technique-description {
+    color: #64748b;
+    font-size: 0.78rem;
+}
+
+.financial-query {
+    width: 100%;
+    background: var(--bg-input);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    color: var(--text-main);
+    padding: 14px 16px;
+    min-height: 125px;
+    outline: none;
+    font-family: inherit;
+}
+
+.example-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.example-chip {
+    background: var(--bg-input);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 7px 13px;
+    font-size: 0.78rem;
+}
+
+.submit-button {
+    width: 100%;
+    background: linear-gradient(135deg, #0284c7, #38bdf8);
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    marg

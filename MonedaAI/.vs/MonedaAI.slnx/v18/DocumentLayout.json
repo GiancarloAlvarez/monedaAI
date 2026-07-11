@@ -1,0 +1,314 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\MonedaAI\\MonedaAI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|c:\\projects\\monedaai\\monedaai\\monedaai\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|solutionrelative:monedaai\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|c:\\projects\\monedaai\\monedaai\\monedaai\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|solutionrelative:monedaai\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|c:\\projects\\monedaai\\monedaai\\monedaai\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|solutionrelative:monedaai\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|c:\\projects\\monedaai\\monedaai\\monedaai\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|solutionrelative:monedaai\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|c:\\projects\\monedaai\\monedaai\\monedaai\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|solutionrelative:monedaai\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|c:\\projects\\monedaai\\monedaai\\monedaai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|solutionrelative:monedaai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|c:\\projects\\monedaai\\monedaai\\monedaai\\techniques\\zeroshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|solutionrelative:monedaai\\techniques\\zeroshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|c:\\projects\\monedaai\\monedaai\\monedaai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|solutionrelative:monedaai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|c:\\projects\\monedaai\\monedaai\\monedaai\\configuration\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|solutionrelative:monedaai\\configuration\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|c:\\projects\\monedaai\\monedaai\\monedaai\\wwwroot\\css\\moneda.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|solutionrelative:monedaai\\wwwroot\\css\\moneda.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|c:\\projects\\monedaai\\monedaai\\monedaai\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|solutionrelative:monedaai\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|c:\\projects\\monedaai\\monedaai\\monedaai\\techniques\\fewshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|solutionrelative:monedaai\\techniques\\fewshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|c:\\projects\\monedaai\\monedaai\\monedaai\\techniques\\roleprompting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|solutionrelative:monedaai\\techniques\\roleprompting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|c:\\projects\\monedaai\\monedaai\\monedaai\\techniques\\chainofthought.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|solutionrelative:monedaai\\techniques\\chainofthought.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|c:\\projects\\monedaai\\monedaai\\monedaai\\models\\viewmodels\\promptviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|solutionrelative:monedaai\\models\\viewmodels\\promptviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|c:\\projects\\monedaai\\monedaai\\monedaai\\techniques\\ipromptingtechnique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7CE0A89-9AE0-43D6-B9FA-DE08164F863E}|MonedaAI\\MonedaAI.csproj|solutionrelative:monedaai\\techniques\\ipromptingtechnique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MonedaAI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MonedaAI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-11T02:03:09.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "MonedaAI\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "MonedaAI\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-11T02:03:03.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MonedaAI\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MonedaAI\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-11T02:03:01.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MonedaAI\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MonedaAI\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-11T02:03:00.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Program.cs",
+              "RelativeDocumentMoniker": "MonedaAI\\Program.cs",
+              "ToolTip": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Program.cs",
+              "RelativeToolTip": "MonedaAI\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswCAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T01:19:46.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "moneda.css",
+              "DocumentMoniker": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\wwwroot\\css\\moneda.css",
+              "RelativeDocumentMoniker": "MonedaAI\\wwwroot\\css\\moneda.css",
+              "ToolTip": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\wwwroot\\css\\moneda.css",
+              "RelativeToolTip": "MonedaAI\\wwwroot\\css\\moneda.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-11T01:56:22.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FewShot.cs",
+              "DocumentMoniker": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Techniques\\FewShot.cs",
+              "RelativeDocumentMoniker": "MonedaAI\\Techniques\\FewShot.cs",
+              "ToolTip": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Techniques\\FewShot.cs",
+              "RelativeToolTip": "MonedaAI\\Techniques\\FewShot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T01:34:21.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Configuration\\AppSettings.cs",
+              "RelativeDocumentMoniker": "MonedaAI\\Configuration\\AppSettings.cs",
+              "ToolTip": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Configuration\\AppSettings.cs",
+              "RelativeToolTip": "MonedaAI\\Configuration\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T01:06:55.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MonedaAI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MonedaAI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-11T01:52:36.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChainOfThought.cs",
+              "DocumentMoniker": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Techniques\\ChainOfThought.cs",
+              "RelativeDocumentMoniker": "MonedaAI\\Techniques\\ChainOfThought.cs",
+              "ToolTip": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Techniques\\ChainOfThought.cs",
+              "RelativeToolTip": "MonedaAI\\Techniques\\ChainOfThought.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T01:40:23.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RolePrompting.cs",
+              "DocumentMoniker": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Techniques\\RolePrompting.cs",
+              "RelativeDocumentMoniker": "MonedaAI\\Techniques\\RolePrompting.cs",
+              "ToolTip": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Techniques\\RolePrompting.cs",
+              "RelativeToolTip": "MonedaAI\\Techniques\\RolePrompting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T01:41:19.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ZeroShot.cs",
+              "DocumentMoniker": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Techniques\\ZeroShot.cs",
+              "RelativeDocumentMoniker": "MonedaAI\\Techniques\\ZeroShot.cs",
+              "ToolTip": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Techniques\\ZeroShot.cs",
+              "RelativeToolTip": "MonedaAI\\Techniques\\ZeroShot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T01:29:52.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\appsettings.json",
+              "RelativeDocumentMoniker": "MonedaAI\\appsettings.json",
+              "ToolTip": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\appsettings.json",
+              "RelativeToolTip": "MonedaAI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-11T01:18:34.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MonedaAI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MonedaAI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwB0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T01:47:35.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PromptViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Models\\ViewModels\\PromptViewModel.cs",
+              "RelativeDocumentMoniker": "MonedaAI\\Models\\ViewModels\\PromptViewModel.cs",
+              "ToolTip": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Models\\ViewModels\\PromptViewModel.cs",
+              "RelativeToolTip": "MonedaAI\\Models\\ViewModels\\PromptViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T00:53:09.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IPromptingTechnique.cs",
+              "DocumentMoniker": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Techniques\\IPromptingTechnique.cs",
+              "RelativeDocumentMoniker": "MonedaAI\\Techniques\\IPromptingTechnique.cs",
+              "ToolTip": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\Techniques\\IPromptingTechnique.cs",
+              "RelativeToolTip": "MonedaAI\\Techniques\\IPromptingTechnique.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T01:29:14.611Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 354,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

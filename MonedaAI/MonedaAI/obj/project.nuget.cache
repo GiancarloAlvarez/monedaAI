@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "1W28Q1ROHcY=",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\MonedaAI\\MonedaAI\\MonedaAI\\MonedaAI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jean2\\.nuget\\packages\\microsoft.extensions.ai\\10.7.0\\microsoft.extensions.ai.10.7.0.nupkg.sha512",
+    "C:\\Users\\jean2\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\10.7.0\\microsoft.extensions.ai.abstractions.10.7.0.nupkg.sha512",
+    "C:\\Users\\jean2\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.9\\microsoft.extensions.caching.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\jean2\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.9\\microsoft.extensions.dependencyinjection.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\jean2\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.9\\microsoft.extensions.logging.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\jean2\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.9\\microsoft.extensions.primitives.10.0.9.nupkg.sha512",
+    "C:\\Users\\jean2\\.nuget\\packages\\ollamasharp\\5.4.25\\ollamasharp.5.4.25.nupkg.sha512",
+    "C:\\Users\\jean2\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.9\\system.diagnostics.diagnosticsource.10.0.9.nupkg.sha512",
+    "C:\\Users\\jean2\\.nuget\\packages\\system.io.pipelines\\10.0.9\\system.io.pipelines.10.0.9.nupkg.sha512",
+    "C:\\Users\\jean2\\.nuget\\packages\\system.numerics.tensors\\10.0.9\\system.numerics.tensors.10.0.9.nupkg.sha512",
+    "C:\\Users\\jean2\\.nuget\\packages\\system.text.encodings.web\\10.0.9\\system.text.encodings.web.10.0.9.nupkg.sha512",
+    "C:\\Users\\jean2\\.nuget\\packages\\system.text.json\\10.0.9\\system.text.json.10.0.9.nupkg.sha512",
+    "C:\\Users\\jean2\\.nuget\\packages\\system.threading.channels\\10.0.9\\system.threading.channels.10.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

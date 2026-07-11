@@ -1,0 +1,127 @@
+﻿@model MonedaAI.Models.ViewModels.PromptViewModel
+
+@{
+    ViewData["Title"] = "MonedaAI";
+
+    // Diccionario para iconos y descripciones personalizadas
+    var techniquesInfo = new Dictionary<string, (string Icon, string Description)>
+    {
+        ["Zero-shot"] = ("⚡", "Respuesta directa sin ejemplos previos."),
+        ["Few-shot"] = ("📋", "Usa ejemplos financieros para seguir un formato."),
+        ["Chain-of-Thought"] = ("🔗", "Muestra análisis, balance y una recomendación."),
+        ["Role Prompting"] = ("🎯", "Responde como un asesor de presupuesto personal.")
+    };
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/moneda.css" />
+}
+
+<div class="moneda-page">
+    <nav class="moneda-nav">
+        <div class="moneda-logo">Moneda<span>AI</span></div>
+        <div class="beta-badge">BETA</div>
+        <div class="model-info">
+            Modelo: <strong>@Model.Model</strong> · <strong>@Model.BaseUrl</strong>
+        </div>
+    </nav>
+
+    <section class="moneda-hero">
+        <h1>Asistente de <span>Control Financiero</span></h1>
+        <p>Consulta ingresos, gastos y balance con inteligencia artificial local usando Ollama.</p>
+    </section>
+
+    <main class="moneda-container">
+        <section class="moneda-card">
+            <form asp-controller="Home" asp-action="Index" method="post" id="financial-form">
+                <input asp-for="SelectedTechnique" type="hidden" id="selected-technique-input" />
+
+                <label class="section-label">Técnica de Prompting</label>
+                <div class="technique-grid">
+                    @foreach (var technique in Model.AvailableTechniques)
+                    {
+                        @* CORRECCIÓN: Definición explícita del tipo de la tupla *@
+                        (string Icon, string Description) info = techniquesInfo.ContainsKey(technique)
+                            ? techniquesInfo[technique]
+                            : ("💬", "Técnica de prompting.");
+
+                        var isSelected = technique == Model.SelectedTechnique;
+
+                        <button type="button" class="technique-option @(isSelected ? "active" : "")" data-technique="@technique">
+                            <span class="technique-icon">@info.Icon</span>
+                            <span class="technique-name">@technique</span>
+                            <span class="technique-description">@info.Description</span>
+                        </button>
+                    }
+                </div>
+
+                <label asp-for="Query" class="section-label">Tu consulta financiera</label>
+                <textarea asp-for="Query" class="financial-query" id="financial-query" placeholder="Ejemplo: Gano RD$65,000 al mes..."></textarea>
+
+                <div class="examples">
+                    <div class="examples-title">Ejemplos rápidos</div>
+                    <div class="example-chips">
+                        <button type="button" class="example-chip" data-example="¿Cómo organizo un presupuesto de RD$50,000?">Presupuesto inicial</button>
+                        <button type="button" class="example-chip" data-example="Gasté RD$8,000 en comida y RD$5,000 en transporte. Tabla.">Tabla de gastos</button>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-button" id="submit-button">
+                    <span id="submit-text">Consultar con Ollama</span>
+                </button>
+            </form>
+        </section>
+
+        @if (!string.IsNullOrWhiteSpace(Model.Error))
+        {
+            <div class="error-alert">⚠️ @Model.Error</div>
+        }
+
+        @if (!string.IsNullOrWhiteSpace(Model.Response))
+        {
+            <section class="response-card">
+                <div class="response-header">
+                    <span class="status-dot"></span>
+                    Respuesta de <strong>@Model.SelectedTechnique</strong>
+                </div>
+                <div class="response-body" id="response-body"></div>
+                <div id="response-markdown-source" hidden>@Model.Response</div>
+            </section>
+        }
+    </main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const techniqueButtons = document.querySelectorAll(".technique-option");
+    const selectedTechniqueInput = document.getElementById("selected-technique-input");
+    const queryInput = document.getElementById("financial-query");
+    const exampleButtons = document.querySelectorAll(".example-chip");
+    const form = document.getElementById("financial-form");
+
+    // Lógica de selección de técnica
+    techniqueButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+    techniqueButtons.forEach(i => i.classList.remove("active"));
+    btn.classList.add("active");
+    selectedTechniqueInput.value = btn.dataset.technique;
+    });
+    });
+
+    // Chips de ejemplo
+    exampleButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+    queryInput.value = btn.dataset.example;
+    queryInput.focus();
+    });
+    });
+
+    // Renderizado de Markdown
+    const responseBody = document.getElementById("response-body");
+    const markdownSource = document.getElementById("response-markdown-source");
+    if (responseBody && markdownSource) {
+    responseBody.innerHTML = marked.parse(markdownSource.textContent);
+    }
+    });
+</script>
